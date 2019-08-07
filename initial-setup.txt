@@ -1,0 +1,4 @@
+geth init genesis.json --datadir test
+
+geth console --networkid 8527 --datadir test --rpc --rpcaddr "0.0.0.0" --rpcport "8555" --rpcapi "web3,net,eth,admin,personal,miner,debug,rpc" --rpccorsdomain "*" --nodiscover
+

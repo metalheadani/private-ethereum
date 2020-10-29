@@ -1,5 +1,5 @@
-personal.listAcounts
 personal.newAccount()
+personal.listAcounts
 miner.setEtherbase(eth.accounts[0])
 miner.start()
 miner.stop()
